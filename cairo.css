@@ -1,0 +1,179 @@
+.cairo-sidebar {
+  position: absolute;
+  margin-left: 420px;
+width: 135px;
+height: 100%;
+background: var(--main);
+border-right: 2px solid #ccc;
+border-bottom: 2px solid #ccc;
+border-radius: 0px 0px 10px 10px;
+overflow: hidden;
+
+}
+
+.cairo-season
+{position: absolute;
+  top: 230px;
+  width: inherit;
+  text-align: center;
+  z-index: 1;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  color: #f7f7f7;
+}
+
+.cairo-season b
+
+{font-family: 'Bebas Neue', cursive;
+  font-size: 30px;}
+
+.cairo-sidebartri { 
+  position: absolute;
+  top: 145px;
+  width: 0; 
+  height: 0; 
+  border-left: 68px solid transparent;
+  border-right: 68px solid transparent;
+  
+  border-bottom: 68px solid var(--accent);}
+
+.cairo-sidebar2{
+  position: absolute;
+  top: 210px;
+  width: 135px;
+  height: 100%;
+  background: var(--accent);
+    display: flex;
+}
+
+.cairo-sidebartri h1
+{text-align: center
+padding-right: 200px;
+  
+}
+
+.cairo-sidebar2 a
+{ color: #f7f7f7;
+  text-decoration: none;
+}
+
+.cairo-sidebar2 a:hover {
+color: var(--main);
+transition: 0.5s;
+}
+
+.cairo-sidebar2 a:before {
+content: '#';
+color: var(--border);
+}
+
+.cairo-sidebar2 span
+
+{  width: inherit;
+align-self: flex-end;
+  margin-bottom: 220px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 17px;
+  text-transform: lowercase;
+}
+
+.cairo-image
+{position: absolute;
+left: 435px;
+top: 35px;
+height: 100px;
+  width: 100px;
+  background: #000;
+  border: 1px solid var(--main);
+  border-radius: 20px;
+}
+
+.cairo-imageback
+{position: absolute;
+left: 440px;
+top: 40px;
+height: 100px;
+  width: 100px;
+  background: var(--border);
+  border-radius: 20px;
+}
+
+
+.cairo-container {
+  position: relative;
+margin: 20px auto;
+padding: 0px 0px 0px 0px;
+width: 580px;
+min-height: 350px;
+background: #f7f7f7;
+border-radius:30px 0px 0px 20px;
+border-right: solid 2px #e5e5e5;
+border-bottom: solid 2px #e5e5e5;
+}
+
+.cairo-body{
+  width: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  margin-left: 10px;
+font-family: 'Comfortaa', cursive;
+font-weight: 500;
+font-size: 12px;
+color: #666666;
+line-height: 22px;
+text-align: justify;
+}
+
+.cairo-body b
+{color: var(--main)}
+
+.cairo-body i
+{color: var(--accent);
+  text-decoration: underline;
+}
+
+
+
+.cairo-notes
+
+{width: 320px;
+height: 30px;
+background: var(--accent);
+font-family: 'Comfortaa', cursive;
+font-size: 11px;
+color: #f7f7f7;
+  margin-left: -40px;
+  margin-top: 45px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 50px;
+  overflow-x: hidden;
+  border-bottom: 2px solid #ccc;
+}
+
+.cairo-notestri
+
+{margin-top: -43px;
+margin-left: 305px;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 21.5px 40px 21.5px 0;
+border-color: transparent #f7f7f7 transparent transparent;
+}
+
+
+
+
+.cairo-icon {
+  position: absolute;
+  margin-top: 24px;
+  margin-left: -28px;
+  font-size: 55px;
+  color: #F7F7F7;
+  text-shadow: 2px 1px 1px var(--border);
+  z-index: 2;
+}
