@@ -128,7 +128,7 @@ text-align: justify;
 }
 
 .cairo-body b
-{color: var(--main)
+{color: var(--main);
 font-weight: 700;}
 
 .cairo-body i
